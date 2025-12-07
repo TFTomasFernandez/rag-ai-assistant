@@ -34,7 +34,10 @@ Everything runs inside Docker for portability and simple deployment.
 ✅ Fully portable
 
 ------------------------------------------------------------------------------------------
+## 🖥️ Demo
 
+![Chatbot Screenshot](API Web.png)
+------------------------------------------------------------------------------------------
 🏗 Architecture
 
 User (Browser UI)
