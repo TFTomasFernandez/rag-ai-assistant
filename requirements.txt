@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+
+langchain
+langchain-community
+langchain-text-splitters
+chromadb
+
+langchain-cohere
+cohere
+langdetect
+pypdf

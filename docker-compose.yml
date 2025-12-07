@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  rag-app:
+    build: .
+    container_name: rag-app
+    environment:
+      - COHERE_API_KEY=${COHERE_API_KEY}  
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./vectordb:/app/vectordb
+      - ./data:/app/data
+    command: >
+      sh -c "python ingest.py && uvicorn app:app --host 0.0.0.0 --port 8000"
