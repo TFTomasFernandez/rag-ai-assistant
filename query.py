@@ -112,7 +112,7 @@ PERGUNTA:
             prompt = prompt_en
             not_found = "The answer is not available in the document. 🤷‍♂️"
 
-        docs = db.similarity_search(question, k=3)
+        docs = db.similarity_search(question, k=10)
         if not docs:
             return not_found
 
