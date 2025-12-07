@@ -4,6 +4,8 @@ services:
   rag-app:
     build: .
     container_name: rag-app
+    env_file:
+      - .env
     environment:
       - COHERE_API_KEY=${COHERE_API_KEY}  
     ports:
