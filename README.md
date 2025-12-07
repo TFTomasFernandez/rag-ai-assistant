@@ -36,7 +36,11 @@ Everything runs inside Docker for portability and simple deployment.
 ------------------------------------------------------------------------------------------
 ## 🖥️ Demo
 
-![Chatbot Screenshot](images/apiweb.png)
+![Chatbot Screenshot](images/api_web.png)
+------------------------------------------------------------------------------------------
+## 🖥️ Test
+
+![Chatbot Screenshot](images/test.png)
 ------------------------------------------------------------------------------------------
 🏗 Architecture
 
