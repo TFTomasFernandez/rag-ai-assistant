@@ -88,6 +88,11 @@ Ensure WSL2 is enabled and restart after installation if asked.
 
 This includes all files and the vectordb directory.
 
+Create a file named ".env" in the folder main:
+
+COHERE_API_KEY=YOUR_API_KEY_HERE
+
+
 * Step 2 — Run the system
 
 From inside the project folder:
